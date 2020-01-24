@@ -34,5 +34,10 @@ namespace WcfServicePrueba
         {
             return num1 * num2;
         }
+        [WebGet]
+        public string helloWord()
+        {
+            return "hola desde servicio web 1";
+        }
     }
 }

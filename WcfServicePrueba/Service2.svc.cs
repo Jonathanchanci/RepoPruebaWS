@@ -26,5 +26,11 @@ namespace WcfServicePrueba
         }
 
         // Agregue aquí más operaciones y márquelas con [OperationContract]
+        [OperationContract]
+        [WebGet]
+        public string helloWord()
+        {
+            return "Hola mundo";
+        }
     }
 }

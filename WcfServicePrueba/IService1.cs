@@ -23,6 +23,8 @@ namespace WcfServicePrueba
         int multiplicacion(int num1, int num2);
 
         // TODO: agregue aquí sus operaciones de servicio
+        [OperationContract]        
+        string helloWord();
     }
 
 
